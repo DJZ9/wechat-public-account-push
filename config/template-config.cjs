@@ -2,9 +2,9 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '小裙裙，醒了嘛🌞',
     desc: `
-      **{{date.DATA}}**
+      **🗓️{{date.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -25,12 +25,12 @@ const TEMPLATE_CONFIG = [
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
-      
+      每日一句😋 中文：{{note_ch.DATA}} English：{{note_en.DATA}} 
       {{birthday_message.DATA}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      // {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
