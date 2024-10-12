@@ -4,7 +4,9 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '小裙裙，醒了嘛🌹',
     desc: `
-      💗今天是我们相识的第{{love_day.DATA}}天
+      💗💗今天是我们相识的第{{love_day.DATA}}天
+
+      {{birthday_message.DATA}}
       
       **🗓️{{date.DATA}}**
       
@@ -31,10 +33,10 @@ const TEMPLATE_CONFIG = [
       中文：{{note_ch.DATA}} 
       
       English：{{note_en.DATA}} 
-      {{birthday_message.DATA}}
       
       ---
-
+      {{moment_copyrighting.DATA}}
+      
       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
