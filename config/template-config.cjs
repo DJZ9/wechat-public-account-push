@@ -2,9 +2,9 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '小裙裙，醒了嘛🌹',
+    title: '小群群，醒了嘛🌹',
     desc: `
-      💗💗今天是我们相识的第{{love_day.DATA}}天
+      💗💗今天是我们在一起的第{{love_day.DATA}}天
 
       {{birthday_message.DATA}}
       
