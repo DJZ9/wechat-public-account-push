@@ -54,7 +54,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      城市：{{city.DATA}}
+      城市：{{city2.DATA}}
       
       天气☁️：{{weather.DATA}}
       
