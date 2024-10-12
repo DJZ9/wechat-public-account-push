@@ -40,8 +40,48 @@ const TEMPLATE_CONFIG = [
       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
-  {
+ {
     id: '0002',
+    title: '小佐佐，醒了嘛🌹',
+    desc: `
+      💗💗今天是我们在一起的第{{love_day.DATA}}天
+
+      {{birthday_message.DATA}}
+      
+      **🗓️{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{city.DATA}}
+      
+      天气☁️：{{weather.DATA}}
+      
+      气温(最高/最低)🌡️:{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}}
+      
+      风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+
+      每日一句
+      
+      中文：{{note_ch.DATA}} 
+      
+      English：{{note_en.DATA}} 
+      
+      ---
+      {{moment_copyrighting.DATA}}
+      
+      {{poetry_title.DATA}} {{poetry_content.DATA}}
+    `
+  },
+  {
+    id: '0003',
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
