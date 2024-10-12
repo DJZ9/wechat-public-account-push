@@ -32,17 +32,17 @@ const USER_CONFIG = {
           type: '*生日', name: '小羊排', year: '2003', date: '04-28',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '2003', date: '04-29',
-        },
+        // {
+        //   type: '生日', name: '小羊排', year: '2003', date: '04-29',
+        // },
         {
           type: '节日', name: '在一起纪念日', year: '2023', date: '09-15',
-        },
+        }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2023-09-015' },
+        { keyword: 'love_day', date: '2023-09-015' }
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: 'djz',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oMOXU6u9s1IE5nYwePzOzxwMI7l4',
     }
